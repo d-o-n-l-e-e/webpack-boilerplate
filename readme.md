@@ -1,14 +1,12 @@
-# webpack-demo
-
-An introduction to Webpack 4 for Sitepoint.
+# webpack-boilerplate
 
 ```bash
 git clone git@github.com:markbrown4/webpack-demo.git
-cd webpack-demo
+cd webpack-boilerplate
 npm install
 
-# Start a development server
-npm run develop
+# Start a dev server
+npm run dev
 
 # Build for production
 npm run build
