@@ -1,15 +1,20 @@
 body:not(.loading) {
-  @if $env == development {
-    background: blue;
-    color: #fff;
-  } @else if $env == production {
-    background: red;
-    color: #fff;
-  } @else {
+  @if $env==development {
+    color: blue;
+    background: #fff;
+  }
+
+  @else if $env==production {
+    color: red;
+    background: #fff;
+  }
+
+  @else {
     background: none;
     color: #000;
   }
 }
+
 body:before {
   content: ""+$env;
 }
